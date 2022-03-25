@@ -1,0 +1,36 @@
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+nav {
+    display: block;
+    position: fixed;
+    left: 80%;
+}
+
+a {
+    border: 2px solid black;
+    border-radius: 10px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(150, 220, 250, .8);
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgba(187, 231, 250, 0.8);
+}

@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    width: 650px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(209, 231, 238);
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    margin: 20px;
+}
+
+.container:hover .stamp {
+    left: 50%;
+}
+
+.stamp {
+    background-color: rgba(100, 100, 100, .7);
+    height: 98.3%;
+    width: 50%;
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+}
+
+.content {
+    color: white;
+}
+
+h2 {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.stamp p {
+    font-style: italic;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 70px;
+}

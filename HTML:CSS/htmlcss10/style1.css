@@ -1,0 +1,28 @@
+.container {
+    text-align: center;
+    width: 500px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.container div {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.red {
+    background-color: rgb(255, 150, 150);
+}
+
+.blue {
+    background-color: rgb(150, 150, 255);
+}
+
+.yellow {
+    background-color: rgb(255, 255, 150);
+}
