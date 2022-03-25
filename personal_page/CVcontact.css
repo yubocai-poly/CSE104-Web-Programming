@@ -1,0 +1,116 @@
+.overview {
+    font-family: Comic Sans MS, Comic Sans, cursive
+}
+
+body {
+    background: rgb(235, 232, 232);
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+    width: 98%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.inline a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 2em;
+    margin-left: 2em;
+    font-size: 1.4em;
+}
+
+h1 {
+    display: inline-block;
+}
+
+a:hover {
+    background-color: lightgrey;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#context {
+    margin: 0 auto;
+    margin-top: 448px;
+    width: auto;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+#albums {
+    margin: 0 auto;
+    padding: 0px 50px 50px 140px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+#bgimage_album {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    right: 0px;
+    bottom: 200px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -11;
+}
+
+.smallpicshow {
+    width: 220px;
+    height: auto;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    margin: 60px;
+    border-radius: 20px;
+}
+
+.smallpicshow_zoom {
+    width: 220px;
+    height: auto;
+    box-shadow: 10px 10px 10px 10px #E5DFD3;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+
+.smallpicshow:hover .smallpicshow_zoom {
+    width: 250px;
+    height: auto;
+    transform: rotate(3deg);
+    box-shadow: 0px 0px 35px 35px #D6CCB7;
+    border-radius: 20px;
+}
+
+.smallpic {
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    background-color: #f1d087;
+    color: #e2d1ab;
+    height: 1.8px;
+    width: 80%;
+}

@@ -1,0 +1,43 @@
+.overview {
+    font-family: Comic Sans MS, Comic Sans, cursive
+}
+
+body {
+    background: rgb(235, 232, 232);
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center
+}
+
+.inline a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 2em;
+    margin-left: 2em;
+    font-size: 1.4em;
+}
+
+h1 {
+    display: inline-block;
+}
+
+a:hover {
+    background-color: lightgrey;
+}
+
+h3 {
+    border: 2px solid rgb(88, 81, 81);
+    border-radius: 15px;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(247, 236, 223, 0.7);
+}
