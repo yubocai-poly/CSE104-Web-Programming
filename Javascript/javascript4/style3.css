@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
+
+img:hover {
+    box-shadow: 6px 6px 6px grey
+}
+
+.cancel {
+    border: 3px solid;
+    background-color: lightgrey;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.cancel:hover {
+    box-shadow: 6px 6px 6px grey
+}
+
+.result {
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    font-style: italic;
+}
