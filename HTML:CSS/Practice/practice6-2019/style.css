@@ -1,0 +1,81 @@
+body {
+    width: 100vw;
+    background-color: rgb(207, 197, 197);
+    display: block;
+}
+
+article {
+    border: 1px solid grey;
+    width: 60%;
+    height: 870px;
+    border-radius: 0.93pc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: white;
+    margin: auto;
+}
+
+h1 {
+    margin-right: 2em;
+    font-variant: small-caps;
+    display: inline-block;
+}
+
+.inblock {
+    display: inline-block
+}
+
+a {
+    margin-right: 1em;
+    text-decoration: none;
+    color: grey;
+    font-size: 1.2em;
+}
+
+.pic {
+    text-align: center;
+    margin-top: 2em;
+}
+
+img {
+    border-radius: 0.625pc;
+    margin-right: 2em;
+    width: 40%;
+    margin-top: 2em;
+}
+
+.text {
+    position: relative;
+    margin-top: 3em;
+    display: block;
+}
+
+.left {
+    color: grey;
+    text-align: justify;
+    font-size: 1.2em;
+    max-width: 450px;
+    position: static;
+}
+
+.right {
+    line-height: 1.5em;
+    right: 0.52in;
+    position: absolute;
+    display: inline-block;
+    margin-top: -7em;
+    right: 6em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.address {
+    font-style: italic;
+    font-size: 85%;
+    display: block;
+    color: grey;
+}

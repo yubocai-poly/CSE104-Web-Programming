@@ -1,0 +1,31 @@
+body {
+    text-align: center
+}
+
+img {
+    height: 100px
+}
+
+.container1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.text {
+    display: inline-block;
+    height: 60px;
+    width: 385px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: rgb(139, 139, 233);
+    font-size: 1.2em;
+    padding: 0.21in;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}

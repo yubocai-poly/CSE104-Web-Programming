@@ -1,0 +1,12 @@
+div {
+    font-size: 1.3em;
+}
+
+div:hover {
+    color: yellow;
+}
+
+.wrapper:hover {
+    background-color: black;
+    color: white;
+}

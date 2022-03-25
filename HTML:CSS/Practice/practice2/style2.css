@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+.container {
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: yellow;
+    width: 400px;
+    height: 250px;
+    margin: 40px;
+    font-size: 1.9em;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hidden {
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: rgb(241, 111, 36);
+    padding: 30px;
+    margin: 30px;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 50px;
+    display: none;
+}
+
+.container:hover .hidden {
+    display: inline-block;
+}

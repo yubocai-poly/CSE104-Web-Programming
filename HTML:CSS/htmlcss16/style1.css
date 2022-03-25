@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item {
+    /** Constraint max-width of the item */
+    max-width: 200px;
+}
+
+img {
+    /** Image tries to take all the width of its item */
+    width: 100%;
+}

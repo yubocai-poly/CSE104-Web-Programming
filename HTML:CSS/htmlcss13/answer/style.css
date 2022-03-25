@@ -1,0 +1,87 @@
+.links {
+    display: block;
+    position: fixed;
+}
+
+a {
+    display: inline-block;
+    border: 2px solid black;
+    background-color: rgb(157, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    display: none;
+}
+
+a:hover {
+    background-color:rgb(85, 250, 250) ;
+}
+
+.small {
+    display: none;
+}
+
+.overall {
+    display: block;
+}
+
+@media (max-width: 1000px) {
+    .small{
+        display: block;
+        position: fixed;
+       
+        background-color: rgb(157, 255, 255);
+        border: 2px solid black;
+        border-radius: 5px;
+        text-align: center;
+        padding: 2px;
+    }
+
+    .small:hover {
+        background-color: brown;
+    }
+    
+    .links {
+        display: none;
+        position: fixed;
+        top:42px;
+    }
+
+    a {
+        display: block;
+        border: 2px solid black;
+        background-color: rgb(157, 255, 255);
+        border-radius: 5px;
+        text-align: center;
+        margin: auto;
+        padding: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration: none;
+        color: black;
+    }
+
+    div.overall:hover div.links {
+        display: block;
+    }
+
+
+
+    span {
+        display: block;
+        background-color: black;
+        width:30px;
+        height:5px;
+        margin: 3px;
+
+
+    }
+}

@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+}
+
+img {
+    max-height: 180px;
+    max-width: 200px;
+    border-radius: 10px;
+}
