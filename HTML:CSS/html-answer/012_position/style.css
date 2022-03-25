@@ -1,0 +1,44 @@
+
+h1, .container{
+	margin: auto;
+	width: 500px;
+	width: 500px;
+}
+
+h1 {
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: lightcyan;
+	padding: 0.5em;
+}
+
+.container {
+	position: relative;
+	margin-top: 1em;
+}
+img {
+	width: 500px;
+	vertical-align: top;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background-color: rgba(100,100,100,0.7);
+	color: white;
+	text-align:center;
+}
+
+.container:hover > .overlay {
+	left: 50%;
+}
+
+.overlay .content {
+	margin-top: 80px;
+}
+.overlay p {
+	font-style: italic;
+}

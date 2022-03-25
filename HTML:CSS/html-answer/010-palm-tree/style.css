@@ -1,0 +1,29 @@
+
+
+.line {
+	margin: 10px;
+	text-align: center;
+}
+
+img {
+	height: 100px;
+	vertical-align: top;
+}
+
+.text {
+	display: inline-block;
+	width: 380px;
+	height: 60px;
+	background-color: lightcyan;
+	padding: 20px;
+
+	border: 2px solid red;
+	border-radius: 15px;
+}
+
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}

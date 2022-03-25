@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(230,230,230);
+    width: 100vw;
+}
+article {
+    margin:auto;
+    background-color: white;
+    max-width:900px;
+    width:60%;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+h1{
+    display:inline-block;
+    font-size: 100%;
+    font-variant: small-caps;
+    margin-right: 2em;
+}
+
+.inblock {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 1em;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+img {
+    width:40%;
+    margin-right: 2em;
+    margin-top: 2em;
+    border-radius: 10px;
+}
+
+.image-wrapper{
+    margin-top:2em;
+    text-align:center;
+}
+
+.wrapper-bottom {
+    margin-top: 3em;
+    position: relative;
+}
+
+
+.text-left {
+    max-width: 325px;
+    text-align: justify;
+    display:inline-block;
+    color:gray;
+    line-height:1.9em;
+}
+
+.text-right {
+    display:inline-block;
+    position:absolute;
+    right: 50px;
+    line-height:1.5em;
+    color:rgb(150,150,150);
+}
+
+.adress {
+    font-size: 85%;
+    font-style: italic;
+}
+
+@media (max-width: 900px) {
+    .wrapper-bottom {
+        margin-top: 3em;
+        position:static;
+    }
+    .text-right {
+        display:block;
+        margin-top: 2em;
+        position: static;
+    }
+}
+@media (max-width: 600px) {
+img {
+    width:80%;
+    margin-right: 2em;
+    margin-top: 2em;
+    border-radius: 10px;
+}
+}

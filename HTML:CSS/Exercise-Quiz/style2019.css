@@ -1,0 +1,98 @@
+body {
+    width: 100vw;
+    background-color: rgb(187, 181, 181);
+}
+
+article {
+    border: 2px solid grey;
+    border-radius: 0.9375pc;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 60%;
+    background-color: white;
+    margin: auto
+}
+
+h1 {
+    display: inline-block;
+    font-size: 20px;
+    font-variant: small-caps;
+    margin-right: 2em;
+}
+
+.inblock {
+    display: inline-block
+}
+
+.inblock a {
+    color: grey;
+    text-decoration: none;
+    margin-right: 1em
+}
+
+.pic {
+    text-align: center;
+    margin-top: 2em
+}
+
+img {
+    border-radius: 0.625pc;
+    margin-right: 2em;
+    width: 40%;
+    margin-top: 2em;
+}
+
+.text1 {
+    position: static;
+    margin-top: 3em;
+    line-height: 1.9em;
+    color: grey;
+    display: inline-block;
+    max-width: 325px;
+}
+
+.text-right {
+    margin-top: 3em;
+    color: grey;
+    line-height: 1.5em;
+    position: absolute;
+    display: inline-block;
+    right: 4in;
+}
+
+.text-right a {
+    text-decoration: none;
+    margin-right: 1em;
+    color: grey;
+}
+
+.address {
+    font-family: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    img {
+        width: 80%;
+        margin-right: 2em;
+        margin-top: 2em;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .pic {
+        margin-top: 3em;
+        position: static;
+    }
+    .text-right {
+        display: block;
+        margin-top: 2em;
+        position: static;
+    }
+}

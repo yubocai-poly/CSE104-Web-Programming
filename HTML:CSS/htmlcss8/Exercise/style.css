@@ -1,0 +1,27 @@
+#selected {
+    background-color: green;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a {
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+a:hover {
+    background-color: rgb(100, 90, 90)
+}
+
+.box {
+    float: right
+}

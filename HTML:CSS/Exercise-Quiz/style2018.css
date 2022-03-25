@@ -1,0 +1,91 @@
+h1 {
+    display: inline-block;
+    margin-right: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.inblock {
+    display: inline-block;
+}
+
+.inblock a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 1em;
+}
+
+.inblock a:hover {
+    color: black;
+}
+
+.pic1 {
+    text-align: center;
+}
+
+.pic1 img {
+    width: 50pc;
+    border-radius: 50px;
+    transition: border-radius 1s;
+}
+
+.part1 {
+    margin-left: auto;
+    width: 6.25in;
+    text-align: center;
+    margin-right: auto;
+}
+
+.part1 p {
+    font-size: 130%;
+    font-style: italic;
+    font-variant: small-caps;
+    color: gray
+}
+
+.part {
+    text-align: center
+}
+
+.block {
+    text-align: center;
+    margin-top: 3.125pc;
+    display: inline;
+}
+
+.part2_1 {
+    text-align: left;
+    margin: 1.875pc;
+    display: inline-block;
+    width: 350px;
+}
+
+.part2_1 img {
+    width: 21.875pc;
+}
+
+.block a {
+    color: black;
+    text-decoration: none;
+    border: 2px solid;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.5em;
+    font-style: italic;
+}
+
+.block a:hover {
+    background-color: black;
+    color: white;
+}
+
+.part2_2 {
+    text-align: left;
+    margin: 1.875pc;
+    display: inline-block;
+    width: 350px;
+}
+
+.part2_2 img {
+    width: 21.875pc;
+}

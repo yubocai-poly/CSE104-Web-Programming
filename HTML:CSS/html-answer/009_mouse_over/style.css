@@ -1,0 +1,26 @@
+
+html {
+	text-align:center;
+}
+
+.wrapper {
+	width: 500px;
+	height:450px;
+	background-color: yellow;
+	border-radius: 20px;
+	font-size:190%;	
+	padding-top:50px;
+	border: solid 2px black;
+}
+
+.hidden{
+	display:none;
+	background-color: lightsalmon;
+	border-radius: 20px;
+	padding:50px;
+	margin:50px;
+	border: solid 2px black;
+}
+.wrapper:hover .hidden{
+	display:inline-block;
+}
