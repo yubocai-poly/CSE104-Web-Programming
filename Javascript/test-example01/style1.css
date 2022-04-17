@@ -1,0 +1,12 @@
+.brick {
+    width: 50px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 2px;
+    display: inline-block;
+}
+
+.brick:hover {
+    margin: 0;
+    border: 2px solid black;
+}
