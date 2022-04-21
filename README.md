@@ -3,10 +3,10 @@
 CSE104 introduces the languages, tools, and techniques specific to develop web-based applications. Students will develop a solid understanding of contemporary, dynamic and responsive website development following the current standards.
 
 ## Professors
-- [Maxime Breden](https://sites.google.com/site/maximebreden/)
+- [Rohmer Damien](https://imagecomputing.net/damien.rohmer/)
 
 ## Course Organization
-- 7 lectures (2h) and 7 Tutorials (2h) 28 hours in total with 3 ECTS
+- 3 lectures (2h) and 11 Tutorials (2h) 28 hours in total with 3 ECTS
 
 ## 📚 Objective: Introduction to computational mathematics
 * Practical knowledge of basic (but fundamental) mathematical algorithms
