@@ -1,0 +1,20 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 20px;
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+div {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    background-color: rgba(211, 211, 211, 0.412);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
