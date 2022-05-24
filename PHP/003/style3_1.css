@@ -1,0 +1,11 @@
+p {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    border: 2px solid #554f4f;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.605);
+}
